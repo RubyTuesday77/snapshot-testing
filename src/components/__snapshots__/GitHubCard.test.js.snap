@@ -1,0 +1,43 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders a snapshot 1`] = `
+<div
+  className="card"
+  style={
+    Object {
+      "margin": "10px auto",
+      "width": "18rem",
+    }
+  }
+>
+  <img
+    className="card-img-top"
+    src="Cats.jpeg"
+    style={
+      Object {
+        "height": "150px",
+        "width": "200px",
+      }
+    }
+  />
+  <div
+    className="card-body"
+  >
+    <div
+      className="card-title h5"
+      style={
+        Object {
+          "fontWeight": "bold",
+        }
+      }
+    >
+      RubyTuesday77
+    </div>
+    <p
+      className="card-text"
+    >
+      I love cats, music and coding!
+    </p>
+  </div>
+</div>
+`;

@@ -1,10 +1,22 @@
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import './App.css';
+import GitHubCard from './components/GitHubCard'
 
 function App() {
   return (
     <div className="App">
+      <GitHubCard />
+    </div>
+  );
+}
+
+
+/* Initial test:
+function App() {
+  return (
+    <div className="App">
       <header className="App-header">
+        <h2>test</h2>
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
@@ -21,5 +33,7 @@ function App() {
     </div>
   );
 }
+*/
+
 
 export default App;
